@@ -7,7 +7,7 @@ Homebrew formula for cytoscape.
 
 ```bash
 $ brew tap kozo2/homebrew-cytoscape
-$ brew install --HEAD cytoscape
+$ brew install cytoscape
 ```
 
 ## Troubleshooting
