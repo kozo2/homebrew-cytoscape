@@ -8,7 +8,7 @@ class Cytoscape < Formula
   depends_on :java => "1.7"
 
   def install
-    libexec.install %W[cytoscape.sh gen_vmoptions.sh framework sampleDate]
+    libexec.install %W[cytoscape.sh gen_vmoptions.sh framework sampleData]
     bin.install_symlink libexec/"cytoscape.sh" => "cytoscape"
   end
 end
